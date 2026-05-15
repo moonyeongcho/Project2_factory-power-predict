@@ -127,12 +127,11 @@ Minimize Z = Σ(Cₜ × Pₜ) + α × P_peak + β × Σ|Pₜ - Pₜ₋₁|
 ## 8. 디렉토리 구조
 
 ```
-.
-├─ assets/                       # 시각화 결과
-├─ data/
+. 
+├─ data/                          # 공개하지 않음
 ├─ outputs/
-│  ├─ Report.pdf                 # 1차 제출 보고서
-│  └─ Presentation.pdf           # 2차 발표자료
+│  ├─ report.pdf                  # 1차 제출 보고서
+│  └─ presentation.pdf            # 2차 발표자료
 ├─ src/
 │  ├─ final_modeling.ipynb        # 최종 앙상블 모델 (RF + CatBoost Voting)
 │  ├─ timeseries.ipynb            # Prophet / ARIMA 시계열 모델
